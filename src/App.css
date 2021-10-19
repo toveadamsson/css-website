@@ -1,12 +1,19 @@
 .App {
   background-color: white;
-  margin: none;
+  margin: 0% 2.5%;
   height: 100%;
-  width: 100%;
+  width: 95%;
   max-width: 1440px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  /* padding-left:10px; */
+}
+p {
+  color: #666666;
+  line-height: 1.7;
+  font-size: 18px;
+}
+h1 {
+  color: #3399cc;
 }
 .frontpage-container {
   height: 100vh;
@@ -15,7 +22,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-left: 5%; */
 }
 .background-image {
   background-image: url("./images/green-leaves-nature-background-wallpaper.jpg");
@@ -23,11 +29,9 @@
   background-size: cover;
   box-sizing: border-box;
   height: 95%;
-
   width: 100%;
 }
 .header {
-  /* background-color: purple; */
   height: 20vh;
   width: 100%;
   display: flex;
@@ -36,17 +40,15 @@
   padding-top: 20px;
 }
 .header h1 {
-  /* background-color: green; */
   color: white;
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 300;
-  margin-left: 45px;
-  padding: 20px;
+  margin-left: 2.813rem;
+  padding: 1.25rem;
   background-color: rgb(140 135 135 / 30%);
   border-radius: 5px;
 }
 .navbar {
-  /* background-color: orange; */
   width: 500px;
   display: flex;
   justify-content: space-around;
@@ -59,7 +61,6 @@
   background-color: transparent;
   border: none;
   font-size: 35px;
-  /* fix space between line and text */
 }
 .navbar button:hover {
   text-decoration: underline;
@@ -67,12 +68,10 @@
 .navbar button:focus {
   text-decoration: underline;
 }
-/*?------------------------------*/
+/*!==================  */
 .intro {
   margin-top: 200px;
   display: flex;
-
-  /* width: 300px; */
   height: auto;
   justify-content: center;
 }
@@ -101,43 +100,36 @@
   margin-top: 0em;
 }
 .c--anim-btn:hover .c-anim-btn {
-  margin-top: -2em;
+  margin-top: -3em;
 }
-/*?------------------------------------  */
+/*!==================  */
 .catalog-container {
-  /* background-color: blue; */
   height: auto;
   width: 100%;
-  /* padding-left: 15px; */
-  /* margin-left: 2.5%; */
 }
 .title-catagories-section {
-  /* background-color: yellow; */
   width: 100%;
-  margin-left: 2.5%;
+  /* margin-left: 2.5%; */
   margin-bottom: 3rem;
 }
 .title-catagories-section h1 {
-  /* background-color: orange; */
-  font-weight: 500;
-  line-height: 1.2;
   color: #666666;
+  font-weight: 500;
+  /* padding-left: 0.938rem; */
 }
 .span-container {
-  /* background-color: lightskyblue; */
   width: 80%;
-  height: 50px;
+  height: 3.125rem;
   display: grid;
   grid-template-columns: 20%80%;
   color: #3399cc;
-  /* border: 1px solid black; */
 }
 .span-container p {
-  /* border: 1px solid black; */
+  color: #3399cc;
   height: 100%;
   font-size: 26px;
   justify-self: start;
-  padding-top: 8px;
+  /* padding-left: 1.625rem; */
   margin: 0;
 }
 .demo {
@@ -145,41 +137,36 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  /* background-color: lime; */
-  height: 50px;
-  /* border: 1px solid black; */
+  height: 3.125rem;
 }
 .demo li {
-  font-size: 22px;
-  /* border: 1px solid black; */
+  font-size: 1.375rem;
 }
 .demo li:hover {
   text-decoration: underline;
 }
-/*?---------------  */
+/*!==================  */
 .different-selection {
-  /* background-color: green; */
-  display: flex;
-  justify-content: space-evenly;
-  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
 }
 .individual-container {
   background-color: #f4f4f4;
-  margin-top: 20px;
-  width: 30%;
+  width: 100%;
 }
 .image-container {
   overflow: hidden;
-  height:300px;
-width:100%;
+  height: 15.75rem;
+  width: 100%;
 }
 .individual-container img {
   height: 100%;
   width: 100%;
-  /* border: 11px solid white; */
   opacity: 70%;
+  background-color: red;
 }
 .individual-container img:hover {
   transition: transform 0.5s ease;
@@ -188,17 +175,256 @@ width:100%;
   position: relative;
 }
 .individual-container h1 {
-  /* background-color: red; */
   color: #3399cc;
   width: 90%;
   margin-left: 5%;
   font-weight: 500;
 }
 .individual-container p {
-  /* background-color: blue; */
   width: 90%;
   margin-left: 5%;
-  line-height: 1.7;
-  font-size: 18px;
+}
+/*!==================  */
+.page-buttons-selector {
+  height: 12.5rem;
+  width: 20.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-buttons-selector button {
+  height: 4.375rem;
+  width: 4.375rem;
+  font-size: 1.563rem;
   color: #666666;
+  border: none;
+  cursor: pointer;
+}
+.page-buttons-selector button:hover {
+  background-color: #ccc;
+}
+.page-buttons-selector button:focus {
+  background-color: #ccc;
+}
+/*!==================  */
+.subscription-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.add-email {
+  background-color: #f4f4f4;
+  padding: 1.875rem;
+}
+.add-email h1 {
+  color: #3399cc;
+  font-weight: 400;
+}
+.email {
+  display: grid;
+  grid-template-columns: 60% 20%;
+}
+.email input {
+  padding: 0.938rem;
+  font-size: 1rem;
+}
+.email span button {
+  height: 100%;
+  width: 9.375rem;
+  margin-left: 50%;
+  background-color: #3399cc;
+  color: white;
+  font-size: 1.125rem;
+  border: none;
+}
+.prov {
+  display: flex;
+  flex-direction: row;
+  /* border:1px solid red; */
+}
+.quick-links,
+.our-pages {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.875rem 0.625rem;
+  width: 100%;
+  margin-left: 1.25rem;
+}
+/* .quick-links {
+  border:1px solid black;
+} */
+/* .our-pages {
+  margin-left: 2.5rem;
+  border:1px solid black;
+} */
+.quick-links button,
+.our-pages button {
+  /* background-color: red; */
+  background-color: #f4f4f4;
+  border: none;
+  color: #666666;
+  font-size: 18px;
+}
+.quick-links button:hover,
+.our-pages button:hover {
+  transition: all 0.5s ease;
+  color: #29bbcc;
+  text-decoration: none;
+  animation: mymove 5s infinite;
+}
+.quick-links h1,
+.our-pages h1 {
+  font-weight: 500;
+  align-self: center;
+  justify-self: center;
+  font-size: 25px;
+}
+@keyframes mymove {
+  from {
+    color: lightgrey;
+  }
+  to {
+    color: rgb(74, 117, 74);
+  }
+}
+/*!0000000000000000  */
+@media screen and (max-width: 1000px) {
+  .frontpage-container {
+    height: 60vh;
+    width: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .c--anim-btn span{
+    font-size: 25px;
+  }
+  .c--anim-btn span svg {
+    margin-top: 30px;
+  }
+  .c--anim-btn {
+    height: 60px;
+    font: normal normal 700 1em/4em Arial, sans-serif;
+    overflow: hidden;
+    width: 230px;
+    background-color: rgb(140 135 135 / 30%);
+    border-radius: 5px;
+    padding: 0px 0px;
+}
+  .intro {
+    margin-top: 100px;
+  }
+  .header h1 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  .navbar button {
+    font-size: 1.7rem;
+  }
+  .different-selection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .span-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .page-buttons-selector {
+    height: 10rem;
+  }
+  .page-buttons-selector span button {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .individual-container h1 {
+    font-size: 26px;
+  }
+  .individual-container p {
+    font-size: 16px;
+  }
+  .add-email {
+    padding: 0.625rem;
+  }
+  .add-email h1 {
+    font-size: 25px;
+  }
+  .add-email p {
+    font-size: 13px;
+  }
+  .email span button {
+    width: 6rem;
+    font-size: 1rem;
+    margin-left: 22%;
+}
+  .email input {
+    font-size: 0.8rem;
+  }
+  .quick-links,
+  .our-pages {
+    padding-top: 5px;
+  }
+  .quick-links h1,
+  .our-pages h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .quick-links button,
+  .our-pages button {
+    font-size: 13px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title-catagories-section {
+    height: 9.375rem;
+  }
+  .different-selection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .span-container {
+    width: 100%;
+  }
+  .demo {
+    height: 4.375rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .page-buttons-selector {
+    height: 6.25rem;
+    width: 50%;
+  }
+  .page-buttons-selector span button {
+    height: 3.125rem;
+    width: 3.125rem;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height:7rem;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .email span button {
+    padding: 0.9375rem;
+    width: 6.250rem;
+    margin: 0;
+}
+  
+}
+
+@media screen and (max-width: 545px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+}
+.quick-links, .our-pages {
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
 }
