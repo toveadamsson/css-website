@@ -12,7 +12,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureOne}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="moon showing reflection in water"
           ></img>
         </div>
         <h1>Aenean aliquet sapien</h1>
@@ -27,7 +27,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureTwo}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="view from balcony of moon rising"
           ></img>
         </div>
         <h1>Mauris in odio vel odio</h1>
@@ -41,7 +41,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureThree}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="sunrise in barcelona"
           ></img>{" "}
         </div>
         <h1>Sagittis sodales enim</h1>
@@ -55,7 +55,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureFour}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="rough cliff nature in sweden"
           ></img>
         </div>
         <h1>Aenean aliquet sapien</h1>
@@ -70,7 +70,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureFive}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="hike next to water in spain"
           ></img>
         </div>
         <h1>Mauris in odio vel odio</h1>
@@ -84,7 +84,7 @@ function SingleItem() {
         <div className="image-container">
           <img
             src={PictureSix}
-            alt="nature landscape kayaking sunrise sunset"
+            alt="sunrise in rocky mountains"
           ></img>
         </div>
         <h1>Sagittis sodales enim</h1>
