@@ -9,7 +9,7 @@ function FrontPage() {
       <div className="background-image">
         <div className="header">
           <h1>
-            CSS display <br /> website
+            CSS<br /> website
           </h1>
           <div className="navbar">
             <Link to="/">

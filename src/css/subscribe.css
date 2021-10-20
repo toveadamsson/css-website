@@ -1,0 +1,136 @@
+.subscription-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .add-email {
+    background-color: #f4f4f4;
+    padding: 1.875rem;
+  }
+  .add-email h1 {
+    color: #3399cc;
+    font-weight: 400;
+  }
+  .email {
+    display: grid;
+    grid-template-columns: 60% 20%;
+  }
+  .email input {
+    padding: 0.938rem;
+    font-size: 1rem;
+  }
+  .email span button {
+    height: 100%;
+    width: 9.375rem;
+    margin-left: 50%;
+    background-color: #3399cc;
+    color: white;
+    font-size: 1.125rem;
+    border: none;
+  }
+  .prov {
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+  }
+  .quick-links,
+  .our-pages {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.875rem 0.625rem;
+    width: 100%;
+    margin-left: 1.25rem;
+  }
+  .quick-links button,
+  .our-pages button {
+    /* background-color: red; */
+    background-color: #f4f4f4;
+    border: none;
+    color: #666666;
+    font-size: 18px;
+  }
+  .quick-links button:hover,
+  .our-pages button:hover {
+    transition: all 0.5s ease;
+    color: #29bbcc;
+    text-decoration: none;
+    animation: mymove 5s infinite;
+  }
+  .quick-links h1,
+  .our-pages h1 {
+    font-weight: 500;
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+  }
+  @keyframes mymove {
+    from {
+      color: lightgrey;
+    }
+    to {
+      color: rgb(74, 117, 74);
+    }
+  }
+  @media screen and (max-width:1000px){
+    .add-email {
+        padding: 0.625rem;
+      }
+      .add-email h1 {
+        font-size: 25px;
+      }
+      .add-email p {
+        font-size: 13px;
+      }
+      .email span button {
+        width: 6rem;
+        font-size: 1rem;
+        margin-left: 22%;
+      }
+      .email input {
+        font-size: 0.8rem;
+      }
+      .quick-links,
+      .our-pages {
+        padding-top: 5px;
+      }
+      .quick-links h1,
+      .our-pages h1 {
+        font-size: 22px;
+        text-align: center;
+      }
+      .quick-links button,
+      .our-pages button {
+        font-size: 13px;
+        margin: 5px;
+      }  
+  }
+  @media screen and (max-width:600px){
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        height: 7rem;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .email span button {
+        padding: 0.9375rem;
+        width: 6.25rem;
+        margin: 0;
+      }
+  }
+  @media screen and (max-width: 545px) {
+
+    .subscription-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .quick-links,
+    .our-pages {
+      margin-left: 0rem;
+      margin-top: 1rem;
+    }
+  }
