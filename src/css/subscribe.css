@@ -121,6 +121,12 @@
         width: 6.25rem;
         margin: 0;
       }
+      .quick-links {
+        border-right:5px solid white;
+      }
+      .our-pages {
+        border-left: 5px solid white;
+      }
   }
   @media screen and (max-width: 545px) {
 

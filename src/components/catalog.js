@@ -9,9 +9,7 @@ function Catalog() {
           <p>Categories:</p>
           <ul className="demo">
             <li>All</li>
-            <li>Drone shots</li>
             <li>Nature</li>
-
             <li>Actions</li>
             <li>Featured</li>
           </ul>
