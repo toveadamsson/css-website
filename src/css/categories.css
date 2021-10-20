@@ -95,6 +95,8 @@
     color: #666666;
     border: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
   }
   .page-buttons-selector button:hover {
     background-color: #ccc;

@@ -2,6 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
+    
   }
   .add-email {
     background-color: #f4f4f4;
@@ -19,15 +20,19 @@
     padding: 0.938rem;
     font-size: 1rem;
     border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
   }
   .email span button {
     height: 100%;
     width: 9.375rem;
-    margin-left: 50%;
+    margin-left: 25%;
     background-color: #3399cc;
     color: white;
     font-size: 1.125rem;
     border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
   }
   .prov {
     display: flex;
@@ -51,6 +56,8 @@
     border: none;
     color: #666666;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
   }
   .quick-links button:hover,
   .our-pages button:hover {
