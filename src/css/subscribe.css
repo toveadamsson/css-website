@@ -18,6 +18,7 @@
   .email input {
     padding: 0.938rem;
     font-size: 1rem;
+    border-style: none;
   }
   .email span button {
     height: 100%;

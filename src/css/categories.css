@@ -137,6 +137,10 @@
     display:none;
     font-size: 1.3rem;
   }
+  .demo {
+    justify-content: space-evenly;
+    width: 100%;
+  }
   .demo li {
     font-size: 1rem;
   }
@@ -145,9 +149,6 @@
   }
   .span-container {
     width: 100%;
-  }
-  .demo {
-    justify-content: space-evenly;
   }
   /*?000000000000000000  */
   .page-buttons-selector {
