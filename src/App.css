@@ -13,6 +13,7 @@ p {
   line-height: 1.7;
   font-size: 18px;
   font-weight: bold;
+  /* text-transform:capitalize;  to make first letter capital */
 }
 h1 {
   color: #3399cc;
@@ -26,7 +27,7 @@ h1 {
   align-items: center;
 }
 .background-image {
-  background-image: url("./images/IMG_0683.jpeg");
+  background-image: url("./images/IMG_0683big.webp");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -64,12 +65,15 @@ h1 {
   border: none;
   font-size: 35px;
   font-family: 'Roboto';
+  
 }
 .navbar button:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
 }
 .navbar button:focus {
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
 }
 /*!==================  */
 .intro {
@@ -106,6 +110,9 @@ h1 {
 .c--anim-btn:hover .c-anim-btn {
   margin-top: -2em;
 }
+
+
+/* text-transform: uppercase!important; */
 
 
 /*!0000000000000000  */

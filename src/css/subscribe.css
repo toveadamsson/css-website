@@ -1,150 +1,155 @@
 .subscription-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.add-email {
+  background-color: #f4f4f4;
+  padding: 1.875rem;
+}
+.add-email h1 {
+  color: #3399cc;
+  font-weight: 400;
+}
+.email {
+  display: grid;
+  grid-template-columns: 60% 20%;
+}
+.email input {
+  padding: 0.938rem;
+  font-size: 1rem;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.email span button {
+  height: 100%;
+  width: 9.375rem;
+  margin-left: 25%;
+  background-color: #3399cc;
+  color: white;
+  font-size: 1.125rem;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.email span button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+.prov {
+  display: flex;
+  flex-direction: row;
+  /* border:1px solid red; */
+}
+.quick-links,
+.our-pages {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.875rem 0.625rem;
+  width: 100%;
+  margin-left: 1.25rem;
+}
+.quick-links button,
+.our-pages button {
+  /* background-color: red; */
+  background-color: #f4f4f4;
+  border: none;
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.quick-links button:hover,
+.our-pages button:hover {
+  transition: all 0.5s ease;
+  color: #29bbcc;
+  text-decoration: none;
+  animation: mymove 2s infinite;
+}
+.quick-links h1,
+.our-pages h1 {
+  font-weight: 500;
+  align-self: center;
+  justify-self: center;
+  font-size: 25px;
+}
+@keyframes mymove {
+  from {
+    color: lightgrey;
   }
+  to {
+    color: rgb(41, 74, 182);
+  }
+}
+@media screen and (max-width: 1000px) {
   .add-email {
-    background-color: #f4f4f4;
-    padding: 1.875rem;
+    padding: 0.625rem;
   }
   .add-email h1 {
-    color: #3399cc;
-    font-weight: 400;
+    font-size: 25px;
   }
-  .email {
-    display: grid;
-    grid-template-columns: 60% 20%;
-  }
-  .email input {
-    padding: 0.938rem;
-    font-size: 1rem;
-    border-style: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  .add-email p {
+    font-size: 13px;
   }
   .email span button {
-    height: 100%;
-    width: 9.375rem;
-    margin-left: 25%;
-    background-color: #3399cc;
-    color: white;
-    font-size: 1.125rem;
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    width: 6rem;
+    font-size: 1rem;
+    margin-left: 22%;
   }
-  .prov {
-    display: flex;
-    flex-direction: row;
-    /* border:1px solid red; */
+  .email input {
+    font-size: 0.8rem;
   }
   .quick-links,
   .our-pages {
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1.875rem 0.625rem;
-    width: 100%;
-    margin-left: 1.25rem;
-  }
-  .quick-links button,
-  .our-pages button {
-    /* background-color: red; */
-    background-color: #f4f4f4;
-    border: none;
-    color: #666666;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-  }
-  .quick-links button:hover,
-  .our-pages button:hover {
-    transition: all 0.5s ease;
-    color: #29bbcc;
-    text-decoration: none;
-    animation: mymove 5s infinite;
+    padding-top: 5px;
   }
   .quick-links h1,
   .our-pages h1 {
-    font-weight: 500;
-    align-self: center;
-    justify-self: center;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
   }
-  @keyframes mymove {
-    from {
-      color: lightgrey;
-    }
-    to {
-      color: rgb(74, 117, 74);
-    }
+  .quick-links button,
+  .our-pages button {
+    font-size: 13px;
+    margin: 5px;
   }
-  @media screen and (max-width:1000px){
-    .add-email {
-        padding: 0.625rem;
-      }
-      .add-email h1 {
-        font-size: 25px;
-      }
-      .add-email p {
-        font-size: 13px;
-      }
-      .email span button {
-        width: 6rem;
-        font-size: 1rem;
-        margin-left: 22%;
-      }
-      .email input {
-        font-size: 0.8rem;
-      }
-      .quick-links,
-      .our-pages {
-        padding-top: 5px;
-      }
-      .quick-links h1,
-      .our-pages h1 {
-        font-size: 22px;
-        text-align: center;
-      }
-      .quick-links button,
-      .our-pages button {
-        font-size: 13px;
-        margin: 5px;
-      }  
+}
+@media screen and (max-width: 600px) {
+  .email {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 7rem;
+    justify-content: space-between;
+    text-align: center;
   }
-  @media screen and (max-width:600px){
-
-    .email {
-        display: flex;
-        flex-direction: column;
-        /* border: 1px solid red; */
-        height: 7rem;
-        justify-content: space-between;
-        text-align: center;
-      }
-      .email span button {
-        padding: 0.9375rem;
-        width: 6.25rem;
-        margin: 0;
-      }
-      .quick-links {
-        border-right:5px solid white;
-      }
-      .our-pages {
-        border-left: 5px solid white;
-      }
+  .email span button {
+    padding: 0.9375rem;
+    width: 6.25rem;
+    margin: 0;
   }
-  @media screen and (max-width: 545px) {
-
-    .subscription-container {
-      display: flex;
-      flex-direction: column;
-    }
-    .quick-links,
-    .our-pages {
-      margin-left: 0rem;
-      margin-top: 1rem;
-    }
+  .quick-links {
+    border-right: 5px solid white;
   }
+  .our-pages {
+    border-left: 5px solid white;
+  }
+}
+@media screen and (max-width: 545px) {
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .quick-links,
+  .our-pages {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+}

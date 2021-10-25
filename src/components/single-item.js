@@ -1,10 +1,10 @@
 import React from "react";
-import PictureOne from "../images/IMG_1075.jpeg";
-import PictureTwo from "../images/IMG_1091.jpeg";
-import PictureThree from "../images/IMG_1144.jpeg";
-import PictureFour from "../images/IMG_3069.jpeg";
-import PictureFive from "../images/IMG_2181.jpeg";
-import PictureSix from "../images/IMG_0559.jpeg";
+import PictureOne from "../images/IMG_2181.webp";
+import PictureTwo from "../images/IMG_1144.webp";
+import PictureThree from "../images/IMG_1075.webp";
+import PictureFour from "../images/IMG_1091.webp";
+import PictureFive from "../images/IMG_0089.webp";
+import PictureSix from "../images/IMG_0559.webp";
 function SingleItem() {
   return (
     <div className="different-selection">
