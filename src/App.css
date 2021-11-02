@@ -31,8 +31,9 @@ button {
 }
 .background-image {
   background-image: url("./images/IMG_8598.jpeg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   box-sizing: border-box;
   height: 95%;
   width: 100%;
