@@ -18,6 +18,9 @@ p {
 h1 {
   color: #3399cc;
 }
+button {
+  text-align: center;
+}
 .frontpage-container {
   height: 100vh;
   width: 100%;
@@ -27,7 +30,7 @@ h1 {
   align-items: center;
 }
 .background-image {
-  background-image: url("./images/IMG_0683big.webp");
+  background-image: url("./images/IMG_8598.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -118,7 +121,7 @@ h1 {
 /*!0000000000000000  */
 @media screen and (max-width: 1000px) {
   .frontpage-container {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     min-height: 0;
     display: flex;

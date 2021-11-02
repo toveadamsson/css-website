@@ -41,8 +41,8 @@
   font-size: 1.375rem;
 }
 .demo li:hover {
-  /* text-decoration: underline; */
-  border-bottom: 1px solid #1f698f;
+  text-decoration: underline;
+  /* border-bottom: 1px solid #1f698f; */
   padding-bottom: 3px;
   color:#1f698f;
 }
@@ -161,8 +161,12 @@
     height: 5.4rem;
     width: 64%;
   }
+  .page-buttons-selector span{
+    text-align: center;
+  }
   .page-buttons-selector span button {
     height: 3.125rem;
     width: 3.125rem;
+    display: inline-block;
   }
 }
