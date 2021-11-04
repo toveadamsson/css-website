@@ -1,5 +1,5 @@
 import React from "react";
-import PictureOne from "../images/IMG_2181.webp";
+import PictureOne from "../images/first.webp";
 import PictureTwo from "../images/IMG_1144.webp";
 import PictureThree from "../images/IMG_1075.webp";
 import PictureFour from "../images/IMG_1091.webp";
