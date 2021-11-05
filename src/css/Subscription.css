@@ -133,7 +133,7 @@
     text-align: center;
   }
   .email span button {
-    padding: 0.9375rem;
+    /* padding: 0.9375rem; */
     width: 6.25rem;
     margin: 0;
   }
