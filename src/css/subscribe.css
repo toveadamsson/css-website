@@ -144,6 +144,10 @@
     border-left: 5px solid white;
   }
 }
+.image-container img {
+  width:356px;
+  height:267px;
+}
 @media screen and (max-width: 545px) {
   .subscription-container {
     display: flex;
