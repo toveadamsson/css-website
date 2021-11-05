@@ -73,10 +73,16 @@
 
 ## About The Project
 
-  <a href="https://github.com/toveadam/css-website/blob/main/README.md">
-    <img src="./images/website-screen.jpeg" alt="Logo" width="400" height="300">
-  </a>
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+  <!-- <a href="https://css-website-practice.netlify.com">
+    <img src="/images/website-screen.jpeg" alt="Logo" width="400" height="300">
+  </a> -->
+  ![GitHub Logo](/images/website-screen.jpeg)
+Format: ![Alt Text](url)
 
+  Thank you for checking in! This project was built to show parts of my knowledge with CSS.
+  It has features for the button, zoom on the images, mediaqueries and much more.
+<!-- 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -87,29 +93,29 @@ Here's why:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
+Use the `BLANK_README.md` to get started. -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+<!-- ### Built With -->
+<!-- 
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
+<!-- - [Next.js](https://nextjs.org/) -->
+<!-- - [React.js](https://reactjs.org/) -->
+<!-- - [Vue.js](https://vuejs.org/)
 - [Angular](https://angular.io/)
 - [Svelte](https://svelte.dev/)
 - [Laravel](https://laravel.com)
 - [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+- [JQuery](https://jquery.com) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
+<!-- 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
@@ -122,9 +128,9 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+### Installation -->
 
-_To use to project, follow the two simple steps belowe._
+_To use to project, follow the two simple steps below._
 
 <!-- 1. Get a free API Key at [https://example.com](https://example.com) -->
 2. Clone the repo
@@ -140,7 +146,7 @@ _To use to project, follow the two simple steps belowe._
    const API_KEY = "ENTER YOUR API";
    ``` -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- USAGE EXAMPLES -->
 
@@ -197,9 +203,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - toveadamsson@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/toveadam/css-website](https://github.com/toveadam/css-website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -218,7 +224,7 @@ Use this space to list resources you find helpful and would like to give credit 
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search) -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
