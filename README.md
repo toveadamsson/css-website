@@ -77,7 +77,7 @@
   <!-- <a href="https://css-website-practice.netlify.com">
     <img src="/images/website-screen.jpeg" alt="Logo" width="400" height="300">
   </a> -->
-  ![GitHub Logo](/images/website-screen.jpeg)
+  ![GitHub Logo](public/website-screen.jpeg)
 Format: ![Alt Text](url)
 
   Thank you for checking in! This project was built to show parts of my knowledge with CSS.
