@@ -77,8 +77,9 @@
   <!-- <a href="https://css-website-practice.netlify.com">
     <img src="/images/website-screen.jpeg" alt="Logo" width="400" height="300">
   </a> -->
-  ![GitHub Logo](public/website-screen.jpeg)
-Format: ![Alt Text](url)
+  ![Website Logo](public/website-screen.png)
+ ![Website Logo](public/screenshot.png)
+
 
   Thank you for checking in! This project was built to show parts of my knowledge with CSS.
   It has features for the button, zoom on the images, mediaqueries and much more.
