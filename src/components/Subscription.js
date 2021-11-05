@@ -6,7 +6,7 @@ function Subscription() {
     return (
         <div>
             <div className="subscription-container">
-        <div className="add-email">
+        <div className="add-email-container">
           <h1>Do you want to get our latest updates?</h1>
           <p>
             Please subscribe our newsletter for upcoming new videos and latest
@@ -19,8 +19,8 @@ function Subscription() {
             </span>
           </div>
         </div>
-        <div className="prov">
-          <div className="quick-links">
+        <div className="our-terms-container">
+          <div className="quick-links-container">
             <h1>Quick Links</h1>
             <button>Duis bibendum</button>
             <button>Purus non dignissim</button>
@@ -28,7 +28,7 @@ function Subscription() {
             <button>Eget consequat</button>
             <button>Praesent eu pulvinar</button>
           </div>
-          <div className="our-pages">
+          <div className="our-pages-container">
             <h1>Our Pages</h1>
             <button>Our Videos</button>
             <button>License Terms</button>

@@ -3,11 +3,11 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.add-email {
+.add-email-container {
   background-color: #f4f4f4;
   padding: 1.875rem;
 }
-.add-email h1 {
+.add-email-container h1 {
   color: #3399cc;
   font-weight: 400;
 }
@@ -35,6 +35,9 @@
   text-align: center;
   
 }
+.email span button:hover{
+  background-color: #3281a8;
+}
 .email span button:active {
   background: #e5e5e5;
   -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -42,13 +45,14 @@
   box-shadow: inset 0px 0px 5px #c1c1c1;
   outline: none;
 }
-.prov {
+/*!000000000*/
+.our-terms-container {
   display: flex;
   flex-direction: row;
   /* border:1px solid red; */
 }
-.quick-links,
-.our-pages {
+.quick-links-container,
+.our-pages-container {
   background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
@@ -57,8 +61,8 @@
   width: 100%;
   margin-left: 1.25rem;
 }
-.quick-links button,
-.our-pages button {
+.quick-links-container button,
+.our-pages-container button {
   /* background-color: red; */
   background-color: #f4f4f4;
   border: none;
@@ -67,36 +71,38 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-.quick-links button:hover,
-.our-pages button:hover {
+.quick-links-container button:hover,
+.our-pages-container button:hover {
   transition: all 0.5s ease;
   color: #29bbcc;
   text-decoration: none;
   animation: mymove 2s infinite;
 }
-.quick-links h1,
-.our-pages h1 {
+.quick-links-container h1,
+.our-pages-container h1 {
   font-weight: 500;
   align-self: center;
   justify-self: center;
   font-size: 25px;
 }
+/*?000000000000*/
 @keyframes mymove {
   from {
     color: lightgrey;
   }
   to {
-    color: rgb(41, 74, 182);
+    color: #3281a8;
   }
 }
+/*!000000000000*/
 @media screen and (max-width: 1000px) {
-  .add-email {
+  .add-email-container {
     padding: 0.625rem;
   }
-  .add-email h1 {
+  .add-email-container h1 {
     font-size: 25px;
   }
-  .add-email p {
+  .add-email-container p {
     font-size: 13px;
   }
   .email span button {
@@ -108,21 +114,22 @@
   .email input {
     font-size: 0.8rem;
   }
-  .quick-links,
-  .our-pages {
+  .quick-links-container,
+  .our-pages-container {
     padding-top: 5px;
   }
-  .quick-links h1,
-  .our-pages h1 {
+  .quick-links-container h1,
+  .our-pages-container h1 {
     font-size: 22px;
     text-align: center;
   }
-  .quick-links button,
-  .our-pages button {
+  .quick-links-container button,
+  .our-pages-container button {
     font-size: 13px;
     margin: 5px;
   }
 }
+/*!000000000000*/
 @media screen and (max-width: 600px) {
   .email {
     display: flex;
@@ -137,24 +144,21 @@
     width: 6.25rem;
     margin: 0;
   }
-  .quick-links {
+  .quick-links-container {
     border-right: 5px solid white;
   }
-  .our-pages {
+  .our-pages-container {
     border-left: 5px solid white;
   }
 }
-/* .image-container img {
-  width:356px;
-  height:267px;
-} */
+/*!000000000000*/
 @media screen and (max-width: 545px) {
   .subscription-container {
     display: flex;
     flex-direction: column;
   }
-  .quick-links,
-  .our-pages {
+  .quick-links-container,
+  .our-pages-container {
     margin-left: 0rem;
     margin-top: 1rem;
   }
