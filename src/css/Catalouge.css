@@ -12,14 +12,14 @@
   font-weight: 500;
   /* padding-left: 0.938rem; */
 }
-.subtitle-container {
+.subtitles-container {
   width: 70%;
   height: 3.125rem;
   display: grid;
   grid-template-columns: 20%80%;
   color: #3399cc;
 }
-.subtitle-container p {
+.subtitles-container p {
   color: #3399cc;
   height: 100%;
   font-size: 26px;
@@ -113,7 +113,7 @@
   .different-selection {
     grid-template-columns: repeat(2, 1fr);
   }
-  .subtitle-container {
+  .subtitles-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .individual-container h1 {
@@ -140,9 +140,12 @@
     font-size: 1.5rem;
     text-align: center;
   }
-  .titles-section p {
+  .titles-container p {
     display:none;
     font-size: 1.3rem;
+  }
+  .subtitles-container{
+    width: 100%;
   }
   .demo {
     justify-content: space-evenly;
@@ -153,9 +156,6 @@
   }
   .different-selection {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .subtitle-container {
-    width: 100%;
   }
   /*?000000000000000000  */
   .page-buttons-container {

@@ -11,7 +11,7 @@ function Catalogue() {
     <div className="catalogue-container">
       <div className="titles-container">
         <h1>Our Photo Catalog</h1>
-        <div className="subtitle-container">
+        <div className="subtitles-container">
           <p>Categories:</p>
           <ul className="demo">
             <li>All</li>
