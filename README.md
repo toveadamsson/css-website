@@ -26,14 +26,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Css-Website</h3>
 
   <p align="center">
-    A project to show some of my CSS skills!
+    A project to show some of my CSS skills:)
     <br />
     <a href="https://github.com/toveadam/css-website.md"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,7 +44,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -67,13 +67,15 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+  <a href="https://github.com/toveadam/css-website/blob/main/README.md">
+    <img src="./images/website-screen.jpeg" alt="Logo" width="400" height="300">
+  </a>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
