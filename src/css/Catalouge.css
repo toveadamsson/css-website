@@ -1,25 +1,25 @@
-.catalog-container {
+.catalogue-container {
   height: auto;
   width: 100%;
 }
-.title-catagories-section {
+.titles-container {
   width: 100%;
   /* margin-left: 2.5%; */
   margin-bottom: 3rem;
 }
-.title-catagories-section h1 {
+.titles-container h1 {
   color: #666666;
   font-weight: 500;
   /* padding-left: 0.938rem; */
 }
-.span-container {
+.subtitle-container {
   width: 70%;
   height: 3.125rem;
   display: grid;
   grid-template-columns: 20%80%;
   color: #3399cc;
 }
-.span-container p {
+.subtitle-container p {
   color: #3399cc;
   height: 100%;
   font-size: 26px;
@@ -84,14 +84,14 @@
   margin-left: 5%;
 }
 /*?000000000000000000  */
-.page-buttons-selector {
+.page-buttons-container {
     height: 12.5rem;
     width: 20.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .page-buttons-selector button {
+  .page-buttons-container button {
     height: 4.375rem;
     width: 4.375rem;
     font-size: 1.563rem;
@@ -103,17 +103,17 @@
     text-align: center;
     padding:10px;
   }
-  .page-buttons-selector button:hover {
+  .page-buttons-container button:hover {
     background-color: #ccc;
   }
-  .page-buttons-selector button:focus {
+  .page-buttons-container button:focus {
     background-color: #ccc;
   }
 @media screen and (max-width: 1000px) {
   .different-selection {
     grid-template-columns: repeat(2, 1fr);
   }
-  .span-container {
+  .subtitle-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .individual-container h1 {
@@ -124,23 +124,23 @@
   }
   /*?000000000000000000  */
 
-  .page-buttons-selector {
+  .page-buttons-container {
     height: 10rem;
   }
-  .page-buttons-selector span button {
+  .page-buttons-container span button {
     height: 3.5rem;
     width: 3.5rem;
   }
 }
 @media screen and (max-width: 600px) {
-  .title-catagories-section {
+  .titles-container {
     height: 4.375rem;
   }
-  .title-catagories-section h1 {
+  .titles-container h1 {
     font-size: 1.5rem;
     text-align: center;
   }
-  .title-catagories-section p {
+  .titles-section p {
     display:none;
     font-size: 1.3rem;
   }
@@ -154,18 +154,18 @@
   .different-selection {
     grid-template-columns: repeat(1, 1fr);
   }
-  .span-container {
+  .subtitle-container {
     width: 100%;
   }
   /*?000000000000000000  */
-  .page-buttons-selector {
+  .page-buttons-container {
     height: 5.4rem;
     width: 64%;
   }
-  .page-buttons-selector span{
+  .page-buttons-container span{
     text-align: center;
   }
-  .page-buttons-selector span button {
+  .page-buttons-container span button {
     height: 3.125rem;
     width: 3.125rem;
     display: inline-block;

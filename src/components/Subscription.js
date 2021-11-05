@@ -1,42 +1,11 @@
-import React from "react";
-import SingleItem from "./SingleItem";
-import '../css/Categories.css'
-import '../css/Subscribe.css'
-
-
-function Catalog() {
-  return (
-    <div className="catalog-container">
-      <div className="title-catagories-section">
-        <h1>Our Photo Catalog</h1>
-        <div className="span-container">
-          <p>Categories:</p>
-          <ul className="demo">
-            <li>All</li>
-            <li>Nature</li>
-            <li>Actions</li>
-            <li>Featured</li>
-          </ul>
-        </div>
-      </div>
-      <div className="test-test">
-        <SingleItem />
-      </div>
-      <div className="page-buttons-selector">
-        <span>
-          <button>1</button>
-        </span>
-        <span>
-          <button>2</button>
-        </span>
-        <span>
-          <button>3</button>
-        </span>
-        <span>
-          <button>4</button>
-        </span>
-      </div>
-      <div className="subscription-container">
+import React from 'react'
+//*-------------------------------------- 
+import "../css/Subscription.css"
+//*-------------------------------------- 
+function Subscription() {
+    return (
+        <div>
+            <div className="subscription-container">
         <div className="add-email">
           <h1>Do you want to get our latest updates?</h1>
           <p>
@@ -69,8 +38,8 @@ function Catalog() {
           </div>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    )
 }
 
-export default Catalog;
+export default Subscription

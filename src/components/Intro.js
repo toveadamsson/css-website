@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaAngleDown } from 'react-icons/fa';
+import "../css/Intro.css"
 
-
-function FrontPage() {
+function Intro() {
   return (
-    <div className="frontpage-container">
+    <div className="intro-container">
       <div className="background-image">
         <div className="header">
           <h1>
@@ -26,7 +26,7 @@ function FrontPage() {
             </Link>
           </div>
         </div>
-        <div className="intro">
+        <div className="intro-button-container">
           {/* <h1>Front page</h1> */}
           <div className="c--anim-btn">
             <span className="c-anim-btn">Discover more...</span>
@@ -40,4 +40,4 @@ function FrontPage() {
   );
 }
 
-export default FrontPage;
+export default Intro;
