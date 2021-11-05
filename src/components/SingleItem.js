@@ -5,6 +5,8 @@ import PictureThree from "../images/IMG_1075.webp";
 import PictureFour from "../images/IMG_1091.webp";
 import PictureFive from "../images/IMG_0089.webp";
 import PictureSix from "../images/IMG_0559.webp";
+import "../css/SingleItem.css"
+
 function SingleItem() {
   return (
     <div className="different-selection">

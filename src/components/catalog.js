@@ -1,5 +1,9 @@
 import React from "react";
-import SingleItem from "./single-item";
+import SingleItem from "./SingleItem";
+import '../css/Categories.css'
+import '../css/Subscribe.css'
+
+
 function Catalog() {
   return (
     <div className="catalog-container">
@@ -17,7 +21,6 @@ function Catalog() {
       </div>
       <div className="test-test">
         <SingleItem />
-        {/* <SingleItem /> */}
       </div>
       <div className="page-buttons-selector">
         <span>
