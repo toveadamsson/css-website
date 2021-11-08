@@ -30,12 +30,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">Css-Website</h3>
+  <h3 align="center">CSS-website/h3>
 
   <p align="center">
-    A project to show some of my CSS skills:)
+    A project created to show parts of my knowledge with CSS.
     <br />
-    <a href="https://github.com/toveadam/css-website.md"><strong>Explore the docs »</strong></a>
+    <!-- <a href="https://github.com/toveadam/css-website.md"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <a href="https://github.com/toveadam/css-website/blob/main/README.md">View Demo</a>
@@ -81,8 +81,8 @@
  ![Website Logo](public/screenshot.png)
 
 
-  Thank you for checking in! This project was built to show parts of my knowledge with CSS.
-  It has features for the button, zoom on the images, mediaqueries and much more.
+  Thank you for visiting! I created this project to display parts of my knowledge with CSS.
+  It's a mock-up of a potential blog or photolibrary.
 <!-- 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -96,7 +96,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started. -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- ### Built With -->
 <!-- 
@@ -111,7 +111,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [Bootstrap](https://getbootstrap.com)
 - [JQuery](https://jquery.com) -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -204,7 +204,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - toveadamsson@gmail.com
+Tove Adamsson - toveadamsson@gmail.com
 
 Project Link: [https://github.com/toveadam/css-website](https://github.com/toveadam/css-website)
 
