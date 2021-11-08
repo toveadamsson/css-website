@@ -38,7 +38,7 @@
     <!-- <a href="https://github.com/toveadam/css-website.md"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
-    <a href="https://github.com/toveadam/css-website/blob/main/README.md">View Demo</a>
+    <a href="https://css-website-practice.netlify.app/">View website</a>
     ·
   </p>
 </div>
