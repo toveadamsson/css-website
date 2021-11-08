@@ -30,7 +30,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">CSS-website</h3>
+  <h3 align="center">CSS WEBSITE</h3>
 
   <p align="center">
     A project created to show parts of my knowledge with CSS.
